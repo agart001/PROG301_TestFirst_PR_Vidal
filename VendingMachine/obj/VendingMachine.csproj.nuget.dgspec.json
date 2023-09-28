@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\agart\\Documents\\GitHub\\PROG301\\PROG301_TestFirst_PR_Vidal\\VendingMachine\\VendingMachine.csproj": {}
+    "c:\\Users\\agart\\Documents\\GitHub\\PROG301\\PROG301_TestFirst_PR_Vidal\\VendingMachine\\VendingMachine.csproj": {}
   },
   "projects": {
-    "C:\\Users\\agart\\Documents\\GitHub\\PROG301\\PROG301_TestFirst_PR_Vidal\\VendingMachine\\VendingMachine.csproj": {
+    "c:\\Users\\agart\\Documents\\GitHub\\PROG301\\PROG301_TestFirst_PR_Vidal\\VendingMachine\\VendingMachine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\agart\\Documents\\GitHub\\PROG301\\PROG301_TestFirst_PR_Vidal\\VendingMachine\\VendingMachine.csproj",
+        "projectUniqueName": "c:\\Users\\agart\\Documents\\GitHub\\PROG301\\PROG301_TestFirst_PR_Vidal\\VendingMachine\\VendingMachine.csproj",
         "projectName": "VendingMachine",
-        "projectPath": "C:\\Users\\agart\\Documents\\GitHub\\PROG301\\PROG301_TestFirst_PR_Vidal\\VendingMachine\\VendingMachine.csproj",
+        "projectPath": "c:\\Users\\agart\\Documents\\GitHub\\PROG301\\PROG301_TestFirst_PR_Vidal\\VendingMachine\\VendingMachine.csproj",
         "packagesPath": "C:\\Users\\agart\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\agart\\Documents\\GitHub\\PROG301\\PROG301_TestFirst_PR_Vidal\\VendingMachine\\obj\\",
+        "outputPath": "c:\\Users\\agart\\Documents\\GitHub\\PROG301\\PROG301_TestFirst_PR_Vidal\\VendingMachine\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

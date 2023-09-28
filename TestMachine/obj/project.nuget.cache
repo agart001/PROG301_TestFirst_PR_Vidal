@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UlA5uHYCvBYM2s91bm/R/xMHnyw0L6cqw0S8CAjYRynW/PWq7uyWQWIx6hIPm503sePi+VMVhcQklc33k/J8Jw==",
+  "dgSpecHash": "ca+RhFhjSrDMdHEiFAKna0Ojelrz4fxr4TeFkewoVb20ewXozUnk0MdkFyJT74LeZGc2AHA+Or4ND99KzOVxtA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\agart\\Documents\\GitHub\\PROG301\\PROG301_TestFirst_PR_Vidal\\TestMachine\\TestMachine.csproj",
+  "projectFilePath": "c:\\Users\\agart\\Documents\\GitHub\\PROG301\\PROG301_TestFirst_PR_Vidal\\TestMachine\\TestMachine.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\agart\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\agart\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",
