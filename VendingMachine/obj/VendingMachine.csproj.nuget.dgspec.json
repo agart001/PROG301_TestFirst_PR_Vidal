@@ -1,20 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\seanh\\Desktop\\Alyssa_Programming\\VendingMachine\\VendingMachine\\VendingMachine\\VendingMachine.csproj": {}
+    "C:\\Users\\agart\\Documents\\GitHub\\PROG301\\PROG301_TestFirst_PR_Vidal\\VendingMachine\\VendingMachine.csproj": {}
   },
   "projects": {
-    "C:\\Users\\seanh\\Desktop\\Alyssa_Programming\\VendingMachine\\VendingMachine\\VendingMachine\\VendingMachine.csproj": {
+    "C:\\Users\\agart\\Documents\\GitHub\\PROG301\\PROG301_TestFirst_PR_Vidal\\VendingMachine\\VendingMachine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\seanh\\Desktop\\Alyssa_Programming\\VendingMachine\\VendingMachine\\VendingMachine\\VendingMachine.csproj",
+        "projectUniqueName": "C:\\Users\\agart\\Documents\\GitHub\\PROG301\\PROG301_TestFirst_PR_Vidal\\VendingMachine\\VendingMachine.csproj",
         "projectName": "VendingMachine",
-        "projectPath": "C:\\Users\\seanh\\Desktop\\Alyssa_Programming\\VendingMachine\\VendingMachine\\VendingMachine\\VendingMachine.csproj",
-        "packagesPath": "C:\\Users\\seanh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\seanh\\Desktop\\Alyssa_Programming\\VendingMachine\\VendingMachine\\VendingMachine\\obj\\",
+        "projectPath": "C:\\Users\\agart\\Documents\\GitHub\\PROG301\\PROG301_TestFirst_PR_Vidal\\VendingMachine\\VendingMachine.csproj",
+        "packagesPath": "C:\\Users\\agart\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\agart\\Documents\\GitHub\\PROG301\\PROG301_TestFirst_PR_Vidal\\VendingMachine\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\seanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\agart\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }
