@@ -7,16 +7,52 @@ using static System.Console;
 
 namespace VendingMachine
 {
-    public class Vending
+public class Vending
     {
+        public string CurrentOutputText { get; protected set; }
+
+        public string CurrentInputText { get; set; }
+
+        private bool UTesting { get; set; }
+        private int TestsRan { get; set; }
+
+        public Vending() 
+        {
+            TestsRan= 0;
+            UTesting = false;
+        }
+
+        public Vending(bool testing)
+        {
+            TestsRan = 0;
+            UTesting = testing;
+        }
+
+        public string UTestInput()
+        {
+            string input = "";
+
+            if (UTesting)
+            {
+                input = CurrentInputText;
+                TestsRan++;
+            }
+            else { input = ReadLine().ToLower(); }
+
+            return input;
+        }
+
+
         public void Vend()
         {
             string choice;
 
-            WriteLine("What would you like? Drinks or Snacks?");
+            CurrentOutputText = "What would you like? Drinks or Snacks?";
+            WriteLine(CurrentOutputText);
 
             WriteLine("");
-            choice = ReadLine().ToLower();
+
+            choice = UTestInput();
 
             switch (choice)
             {
@@ -38,8 +74,13 @@ namespace VendingMachine
         public void Snack()
         {
             string choose;
+
             WriteLine("");
-            WriteLine("Choose your snack:\n1) Potato Chips\n2) Chocolate\n3) Taffy\n4) Gum\n5) Mints");
+
+            CurrentOutputText = "Choose your snack:";
+            WriteLine(CurrentOutputText + "\n1) Potato Chips\n2) Chocolate\n3) Taffy\n4) Gum\n5) Mints");
+
+            if (UTesting && TestsRan > 0) return;
 
             string[] snacky = new string[5];
             snacky[0] = "Potato Chips";
@@ -49,44 +90,55 @@ namespace VendingMachine
             snacky[4] = "Mints";
            
             WriteLine("");
-            choose = ReadLine().ToLower();
 
-            if (choose == snacky[9])
+            choose = UTestInput();
+
+            if (choose == snacky[0])
             {
                 WriteLine("");
-                WriteLine("You got potato chips!");
+                CurrentOutputText = "You got potato chips!";
+                WriteLine(CurrentOutputText);
             }
             if (choose == snacky[1])
             {
                 WriteLine("");
-                WriteLine("You got chocolate!");
+                CurrentOutputText = "You got chocolate!";
+                WriteLine(CurrentOutputText);
             }
             if (choose == snacky[2])
             {
                 WriteLine("");
-                WriteLine("You got taffy!");
+                CurrentOutputText = "You got taffy!";
+                WriteLine();
             }
             if (choose == snacky[3])
             {
                 WriteLine("");
-                WriteLine("You got gum!");
+                CurrentOutputText = "You got gum!";
+                WriteLine(CurrentOutputText);
             }
             if (choose == snacky[4])
             {
                 WriteLine("");
-                WriteLine("You got mints!");
+                CurrentOutputText = "You got mints!";
+                WriteLine(CurrentOutputText);
             }
-            ReadKey();
         }
 
         public void Drink()
         {
             string choice;
-            WriteLine("");
-            WriteLine("Would you like a cold drink or a hot drink?");
 
             WriteLine("");
-            choice = ReadLine().ToLower();
+
+            CurrentOutputText = "Would you like a cold drink or a hot drink?";
+            WriteLine(CurrentOutputText);
+
+            if (UTesting && TestsRan > 0) return;
+
+            WriteLine("");
+
+            choice = UTestInput();
 
             switch (choice)
             {
@@ -103,14 +155,19 @@ namespace VendingMachine
                         break;
                     }
             }
-            Clear();
         }
 
         public void ColdDrink()
         {
+
             string choose;
+
             WriteLine("");
-            WriteLine("Choose your cold drink:\n1) Cola\n2) Sweet Tea\n3) Water\n4) Sparkling Water\n5) Vitamin Water");
+
+            CurrentOutputText = "Choose your cold drink:";
+            WriteLine(CurrentOutputText + "\n1) Cola\n2) Sweet Tea\n3) Water\n4) Sparkling Water\n5) Vitamin Water");
+
+            if (UTesting && TestsRan > 0) return;
 
             string[] cold = new string[5];
             cold[0] = "Cola";
@@ -120,41 +177,53 @@ namespace VendingMachine
             cold[4] = "Vitamin Water";
 
             WriteLine("");
-            choose = ReadLine().ToLower();
 
-            if (choose == cold[4])
+            choose = UTestInput();
+
+            if (choose == cold[0])
             {
                 WriteLine("");
-                WriteLine("You got cola!");
+                CurrentOutputText = "You got cola!";
+                WriteLine(CurrentOutputText);
             }
             if (choose == cold[1])
             {
                 WriteLine("");
-                WriteLine("You got sweet tea!");
+                CurrentOutputText = "You got sweet tea!";
+                WriteLine(CurrentOutputText);
             }
             if (choose == cold[2])
             {
                 WriteLine("");
-                WriteLine("You got water!");
+                CurrentOutputText = "You got water!";
+                WriteLine(CurrentOutputText);
             }
             if (choose == cold[3])
             {
                 WriteLine("");
-                WriteLine("You got sparkling water!");
+                CurrentOutputText = "You got sparkling water!";
+                WriteLine(CurrentOutputText);
             }
             if (choose == cold[4])
             {
                 WriteLine("");
-                WriteLine("You got vitamin water!");
+                CurrentOutputText = "You got vitamin water!";
+                WriteLine(CurrentOutputText);
             }
-            ReadKey();
         }
 
         public void HotDrink()
         {
+
             string choose;
+
+
             WriteLine("");
-            WriteLine("Choose your snack:\n1) Kool-Aid\n2) Tea\n3) Hot Water\n4) Coffee\n5) Espresso");
+
+            CurrentOutputText = "Choose your snack:";
+            WriteLine(CurrentOutputText + "\n1) Kool-Aid\n2) Tea\n3) Hot Water\n4) Coffee\n5) Espresso");
+
+            if (UTesting && TestsRan > 0) return;
 
             string[] hot = new string[5];
             hot[0] = "Kool-Aid";
@@ -164,34 +233,39 @@ namespace VendingMachine
             hot[4] = "Espresso";
 
             WriteLine("");
-            choose = ReadLine().ToLower();
 
-            if (choose == hot[1])
+            choose = UTestInput();
+
+            if (choose == hot[0])
             {
                 WriteLine("");
-                WriteLine("You got Kool-Aid!");
+                CurrentOutputText = "You got Kool-Aid!";
+                WriteLine(CurrentOutputText);
             }
             if (choose == hot[1])
             {
                 WriteLine("");
-                WriteLine("You got tea!");
+                CurrentOutputText = "You got tea!";
+                WriteLine(CurrentOutputText);
             }
             if (choose == hot[2])
             {
                 WriteLine("");
-                WriteLine("You got hot water!");
+                CurrentOutputText = "You got hot water!";
+                WriteLine(CurrentOutputText);
             }
             if (choose == hot[3])
             {
                 WriteLine("");
-                WriteLine("You got coffee!");
+                CurrentOutputText = "You got coffee!";
+                WriteLine(CurrentOutputText);
             }
             if (choose == hot[4])
             {
                 WriteLine("");
-                WriteLine("You got espresso!");
+                CurrentOutputText = "You got espresso!";
+                WriteLine(CurrentOutputText);
             }
-            ReadKey();
         }
     }
 }
