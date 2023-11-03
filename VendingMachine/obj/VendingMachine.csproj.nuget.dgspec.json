@@ -1,25 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\agart\\Documents\\GitHub\\PROG301\\PROG301_TestFirst_PR_Vidal\\VendingMachine\\VendingMachine.csproj": {}
+    "C:\\Users\\agart\\Documents\\GitHub\\PROG301\\PROG301_TestFirst_PR_Vidal\\VendingMachine\\VendingMachine.csproj": {}
   },
   "projects": {
-    "c:\\Users\\agart\\Documents\\GitHub\\PROG301\\PROG301_TestFirst_PR_Vidal\\VendingMachine\\VendingMachine.csproj": {
+    "C:\\Users\\agart\\Documents\\GitHub\\PROG301\\PROG301_TestFirst_PR_Vidal\\VendingMachine\\VendingMachine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\agart\\Documents\\GitHub\\PROG301\\PROG301_TestFirst_PR_Vidal\\VendingMachine\\VendingMachine.csproj",
+        "projectUniqueName": "C:\\Users\\agart\\Documents\\GitHub\\PROG301\\PROG301_TestFirst_PR_Vidal\\VendingMachine\\VendingMachine.csproj",
         "projectName": "VendingMachine",
-        "projectPath": "c:\\Users\\agart\\Documents\\GitHub\\PROG301\\PROG301_TestFirst_PR_Vidal\\VendingMachine\\VendingMachine.csproj",
+        "projectPath": "C:\\Users\\agart\\Documents\\GitHub\\PROG301\\PROG301_TestFirst_PR_Vidal\\VendingMachine\\VendingMachine.csproj",
         "packagesPath": "C:\\Users\\agart\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\agart\\Documents\\GitHub\\PROG301\\PROG301_TestFirst_PR_Vidal\\VendingMachine\\obj\\",
+        "outputPath": "C:\\Users\\agart\\Documents\\GitHub\\PROG301\\PROG301_TestFirst_PR_Vidal\\VendingMachine\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Users\\agart\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\agart\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Users\\agart\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
